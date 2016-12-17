@@ -1,0 +1,166 @@
+body {
+  line-height: 1.7em;
+}
+
+.caesar {
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 3em;
+  box-sizing: border-box;
+}
+
+.ita {
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+
+.smol {
+  font-size: .7em;
+  line-height: 1.2em;
+}
+
+.ui-grid-d.p1 > div {
+  margin: 1em 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1%;
+}
+.ui-grid-d {
+  margin: 0 auto;
+}
+
+.ui-grid-d.p1 > div > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.ui-grid-d.p2
+{
+    height: 50px;
+    width: 500px;
+}
+
+.ui-grid-d.p2 > div {
+  height: 100%;
+}
+
+#site {
+  background-color: #ffffff;
+  color: #454545;
+  padding: 5em;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.hints {
+  margin-bottom: 3em;
+}
+
+ .a {
+   background-color: #6F7B1F;
+ }
+ .b {
+  background-color: #ce1621;
+ }
+ .c {
+   background-color: #f78e9a;
+ }
+ .d {
+    background-color: #c6bb02;
+ }
+ .e {
+    background-color: #00b651;
+ }
+ .f {
+    background-color: #aeace9;
+ }
+ .g {
+    background-color: #e2fc3e;
+ }
+ .h {
+    background-color: #7e5716;
+ }
+ .i {
+    background-color: #21b7b4;
+ }
+ .j {
+    background-color: #50fd87;
+ }
+ .k {
+    background-color: #ac9b63;
+ }
+ .l {
+   background-color: #e835de;
+ }
+ .m {
+  background-color: #3f1252;
+ }
+ .n {
+   background-color: #2cef5a;
+ }
+ .o {
+    background-color: #4d567a;
+ }
+ .p {
+    background-color: #34ed09;
+ }
+ .q {
+    background-color: #624047;
+ }
+ .r {
+    background-color: #b2ae79;
+ }
+ .s {
+    background-color: #79c8f8;
+ }
+ .t {
+    background-color: #b12f16;
+ }
+ .u {
+    background-color: #0430ab;
+ }
+ .v {
+    background-color: #c4175c;
+ }
+ .w {
+    background-color: #87e8de;
+ }
+ .x {
+    background-color: #e2ed38;
+ }
+ .y {
+    background-color: #6c0472;
+ }
+
+ .popup p {
+margin: 0;
+height: 50px;
+ }
+
+ .popup {
+   width: 100%;
+ }
+
+.hidden {
+  display: none;
+}
+
+.sortable {
+  margin-left: 3em;
+}
+
+
+ @media screen and (max-width: 720px) {
+   #site {
+     background-color: #454545 !important;
+     background: url("hint.png") no-repeat center center;
+     color: #ffffff;
+     padding: 1em;
+   }
+
+   .ui-grid-d.p2, .hints {
+     display: none;
+   }
+
+ }
